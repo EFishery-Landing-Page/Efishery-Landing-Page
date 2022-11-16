@@ -7,6 +7,7 @@ function App() {
   ReactGA.send("pageview");
 
   const onClickReact = () => {
+    console.log("TESS")
     ReactGA.event ({
       action: 'react_action',
       category: 'react_category',
