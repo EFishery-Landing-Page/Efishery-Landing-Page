@@ -3,6 +3,9 @@ import './App.css';
 import ReactGA from "react-ga4";
 
 function App() {
+  ReactGA.initialize("G-6P5FPLJB0P");
+  ReactGA.send("pageview");
+
   const onClickReact = () => {
     ReactGA.event ({
       action: 'react_action',
