@@ -11,7 +11,7 @@ function App() {
       action: 'react_action',
       category: 'react_category',
       label: 'react_label',
-      value: 'xxxxx'
+      value: 1
     })
   }
   return (
