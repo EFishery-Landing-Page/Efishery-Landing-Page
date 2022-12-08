@@ -1,6 +1,7 @@
 import './App.css';
 import ReactGA from "react-ga4";
 import Header from "./sections/Header";
+import Product from "./sections/Product";
 import Beranda from "./sections/Beranda";
 import WhyFeeder from "./sections/WhyFeeder";
 import Sewa from "./sections/Sewa";
@@ -12,11 +13,13 @@ function App() {
 
   return (
     <div className="App">
-      <Header/>
-      <Beranda/>
+      {/* <Header/> */}
+      {/* <div className='h-screen bg-black'></div> */}
+      <Product/>
+      {/* <Beranda/>
       <WhyFeeder/>
       <Sewa/>
-      <Footer/>
+      <Footer/> */}
     </div>
   );
 }
